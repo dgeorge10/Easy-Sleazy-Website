@@ -1,0 +1,186 @@
+div{
+	/* IMPORTANT
+	I moved all divs down 150px so that the navbar does not overlap on it. Therefore remember to:
+		1. Wrap all elements in divs
+		2. Reset top:0px; if you ever need to undo the change (you prob wont need to tho)
+		3. you can adjust this movement accordingly if its too big or too small in the element. i made it pretty big so it covers most things.
+	*/
+	position: relative;
+	top: 150px;
+}
+
+.navigation{
+	position: fixed;
+	top: 0px;
+	padding-top: 5px;
+	height:auto;
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	background:rgba(255,255,255,1);
+	transition:.1s ease-in-out;
+
+}
+
+.navigation ul{
+	padding:0;
+	margin: 0px 0px;
+}
+.navigation li{
+	text-align: center;
+	display: inline-block;
+	margin:0px 0px;
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: "Patrick Hand";
+	list-style-type: none;
+	color: grey;
+
+	user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.nav_link {
+	position: relative;
+	bottom: 55px;
+	padding: 5px 15px;
+}
+
+#gallery_header{
+	position: relative;
+	top:-50px;
+	font-family:'Marck Script', cursive;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ff6600,#e6b800, #4d79ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#filardopic img{
+	display: block;
+	margin: auto;
+	text-align: center;
+	border-radius: 100%;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+#nick_filardo{
+	text-align: center;
+	font-family:'Marck Script', cursive;
+	font-size: 30px;
+}
+#gallery_content{
+	display: block;
+	margin: auto;
+	overflow: auto;
+	border: 2px solid black;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.shirt{
+	display: block;
+	padding-top: 30px;
+	margin: auto;
+	float: left;
+	padding: 30px;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.shirt_description{
+	display: block;
+	text-align: center;
+	margin:auto;
+	font-size: 25px;
+	font-family: "Patrick Hand";
+}
+#designpics{
+	text-align: center;
+	display: block;
+	margin: ;
+	padding: 20px;
+	user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+footer{
+	display: block;
+	margin: auto; 
+	text-align: center;
+}
+#carousel{
+	display: block;
+	margin: auto;
+	width: 765px;
+	height: 400px;
+	padding-bottom: 200px;
+}
+#slider {
+	top: 0px;
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+	margin: auto;
+	float: left;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+#copyright{
+	font-size: 20px;
+	font-family: "Patrick Hand";
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+#socialmedia{
+	text-align: center;
+	font-family:'Marck Script', cursive;
+	font-size: 20px;
+}
+#bio{
+	padding-top: 20px; 
+	display: block;
+	margin: auto;
+	float: left;
+	text-align: center;
+	font-family: "Marck", cursive;
+	font-size: 20px;
+}
